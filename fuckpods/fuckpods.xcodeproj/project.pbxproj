@@ -16,6 +16,7 @@
 		D8445052247FC74900482B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8445051247FC74900482B49 /* main.m */; };
 		D844505C247FC74900482B49 /* fuckpodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D844505B247FC74900482B49 /* fuckpodsTests.m */; };
 		D8445067247FC74900482B49 /* fuckpodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8445066247FC74900482B49 /* fuckpodsUITests.m */; };
+		D8445077247FC7A000482B49 /* fuck.m in Sources */ = {isa = PBXBuildFile; fileRef = D8445076247FC7A000482B49 /* fuck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D8445062247FC74900482B49 /* fuckpodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fuckpodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8445066247FC74900482B49 /* fuckpodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fuckpodsUITests.m; sourceTree = "<group>"; };
 		D8445068247FC74900482B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8445075247FC7A000482B49 /* fuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fuck.h; sourceTree = "<group>"; };
+		D8445076247FC7A000482B49 /* fuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fuck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				D8445043247FC74800482B49 /* SceneDelegate.m */,
 				D8445045247FC74800482B49 /* ViewController.h */,
 				D8445046247FC74800482B49 /* ViewController.m */,
+				D8445074247FC79100482B49 /* fuckpods */,
 				D8445048247FC74800482B49 /* Main.storyboard */,
 				D844504B247FC74900482B49 /* Assets.xcassets */,
 				D844504D247FC74900482B49 /* LaunchScreen.storyboard */,
@@ -135,6 +139,15 @@
 				D8445068247FC74900482B49 /* Info.plist */,
 			);
 			path = fuckpodsUITests;
+			sourceTree = "<group>";
+		};
+		D8445074247FC79100482B49 /* fuckpods */ = {
+			isa = PBXGroup;
+			children = (
+				D8445075247FC7A000482B49 /* fuck.h */,
+				D8445076247FC7A000482B49 /* fuck.m */,
+			);
+			path = fuckpods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8445077247FC7A000482B49 /* fuck.m in Sources */,
 				D8445047247FC74800482B49 /* ViewController.m in Sources */,
 				D8445041247FC74800482B49 /* AppDelegate.m in Sources */,
 				D8445052247FC74900482B49 /* main.m in Sources */,
@@ -442,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB992S6XRV;
 				INFOPLIST_FILE = fuckpods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB992S6XRV;
 				INFOPLIST_FILE = fuckpods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
